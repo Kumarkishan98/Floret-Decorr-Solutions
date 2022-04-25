@@ -1,10 +1,3 @@
-const slides = document.querySelectorAll('.slide');
-const next = document.querySelector('#next');
-const prev = document.querySelector('#prev');
-const auto = true; // Auto scroll
-const intervalTime = 5000;
-let slideInterval;
-
 const currentLocation = location.href;
 const navItems = document.querySelectorAll('a');
 const navLength = navItems.length;
@@ -26,6 +19,13 @@ hamburger.addEventListener("click", function toggleMenu() {
     nav.classList.toggle("is-active");
   hamburger.classList.toggle("is-active");
 });
+
+const slides = document.querySelectorAll('.slide');
+const next = document.querySelector('#next');
+const prev = document.querySelector('#prev');
+const auto = true; // Auto scroll
+const intervalTime = 5000;
+let slideInterval;
 
 function nextSlide() {
     const current = document.querySelector('.current');
