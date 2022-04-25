@@ -4,6 +4,7 @@ const prev = document.querySelector('#prev');
 const auto = true; // Auto scroll
 const intervalTime = 5000;
 let slideInterval;
+
 const currentLocation = location.href;
 const navItems = document.querySelectorAll('a');
 const navLength = navItems.length;
