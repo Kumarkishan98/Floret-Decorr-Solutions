@@ -1007,8 +1007,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .specialization .specialization-container .specialization-box .specialization-text p {
-    text-align: justify;
+    text-align: center;
     font-family: var(--text-font-2);
+    font-weight: 500;
     margin-top: 10px;
     color: var(--gray-color);
 }
