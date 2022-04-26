@@ -1014,7 +1014,45 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*completed projects starts here*/
+.project-counters {
+    width: 100%;
+    padding: 0 25px 0 25px;
+    padding-top: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.project-counters .counter-container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: var(--gray-color);
+}
+
+.project-counters .counter-container .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-counters .counter-container .projects .counter {
+    color: var(--primary-color);
+    font-family: var(--text-font);
+    font-size: 7em;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+.project-counters .counter-container .projects p {
+    font-family: var(--text-font-2);
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 2em;
+    vertical-align: middle;
+}
 /*completed projects starts here*/
 /*our-specialization ends here*/
 
