@@ -1018,7 +1018,7 @@ body::-webkit-scrollbar-thumb {
 .project-counters {
     width: 100%;
     padding: 0 25px 0 25px;
-    padding-top: 4vw;
+    padding-top: 2vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1056,6 +1056,92 @@ body::-webkit-scrollbar-thumb {
 }
 /*completed projects starts here*/
 /*our-specialization ends here*/
+
+/*testimonials starts here*/
+.testimonial {
+    width: 100%;
+    padding: 7vw 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial .testimonial-head {
+    font-size: clamp(2rem, 2.5vw, 3rem);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--primary-color);
+    font-family: var(--text-font);
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 3vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 5px solid var(--primary-color);
+}
+
+.testimonial .testimonial-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.testimonial .testimonial-container .testimonial-box {
+    width: 470px;
+    padding: 25px 0;
+    margin-top: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: hsl(0, 0%, 20%);
+}
+
+.testimonial .testimonial-container .testimonial-box .testimonial-box-img {
+    width: 100px;
+    height: 100px;
+}
+
+.testimonial .testimonial-container .testimonial-box .testimonial-box-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial .testimonial-container .testimonial-box .testimonial-text {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.testimonial .testimonial-container .testimonial-box .testimonial-text h3 {
+    font-family: var(--text-font);
+    color: var(--primary-color);
+    font-size: 1.25em;
+    letter-spacing: 1px;
+}
+
+.testimonial .testimonial-container .testimonial-box .testimonial-text p {
+    color: var(--gray-color);
+    font-family: var(--text-font-2);
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.testimonial .testimonial-container .testimonial-box .testimonial-text i {
+    font-size: 1.5em;
+    color: var(--gray-color);
+}
+/*testimonials ends here*/
 
 /*responsive layout*/
 /*max-width: 1400px*/
