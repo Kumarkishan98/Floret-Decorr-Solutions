@@ -119,7 +119,7 @@ $(document).ready(function() {
                   }
             },
             {
-                breakpoint:770,
+                breakpoint:820,
                 settings: {
                     item:1,
                     slideMove:1,
